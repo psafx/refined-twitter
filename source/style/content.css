@@ -225,3 +225,108 @@ code.refined-twitter_markdown {
 .feature-notifications-hide-liked-reply-activity .stream-item-favorited_mention {
 	display: none;
 }
+
+/* Font Size */
+.global-nav .search-input,
+.new-tweets-bar,
+.js-stream-tweet .fullname,
+.js-stream-tweet .username,
+.js-stream-tweet .time a,
+.js-stream-tweet .TweetTextSize,
+.QuoteTweet-fullname,
+.QuoteTweet-text {
+	font-size: 15px !important;
+}
+
+.ProfileTweet-actionCount {
+	font-size: 15px !important;
+	font-weight: 400 !important;
+}
+
+/* Kanit */
+.nav > li > a {
+	font-family: Kanit !important;
+	font-weight: 400 !important;
+}
+.SearchNavigation-titleText {
+	font-family: Kanit !important;
+	font-size: 30px !important;
+	font-weight: 200 !important;
+}
+.AdaptiveFiltersBar-target {
+	font-family: Kanit !important;
+	font-weight: 400 !important;
+}
+
+/* Remove search filter and center the tweet stream */
+.SidebarFilterModule,
+.AdaptiveRelatedSearches {
+	display: none !important;
+}
+.Grid-cell.u-size1of3 {
+	width: 11% !important;
+}
+.AppContent-main.content-main.u-cf .Grid-cell.u-size1of3 {
+	width: 20.666666% !important;
+}
+.Grid-cell.u-lg-size2of3, .Grid-cell.u-lg-size4of6, .Grid-cell.u-lg-size8of12 {
+	width: 690px !important;
+}
+
+@media screen and (min-width: 1236px) {
+	.Grid-cell.u-lg-size1of4 {
+		width: 20.666666% !important;
+	}
+}
+
+/* Permalink 800px */
+.PermalinkOverlay-modal {
+	width: 800px !important;
+	margin-left: -400px !important;
+}
+.permalink-container {
+	width: 800px !important;
+}
+.permalink:not(.self-thread-permalink) .permalink-tweet .AdaptiveMedia,
+.permalink:not(.self-thread-permalink) .permalink-tweet .AdaptiveMedia.is-square {
+	max-height: 880px !important;
+	max-width: 720px !important;
+}
+.permalink:not(.self-thread-permalink) .permalink-tweet .AdaptiveMedia-doublePhoto,
+.permalink:not(.self-thread-permalink) .permalink-tweet .AdaptiveMedia-triplePhoto,
+.permalink:not(.self-thread-permalink) .permalink-tweet .AdaptiveMedia-quadPhoto,
+.permalink:not(.self-thread-permalink) .permalink-tweet .AdaptiveMedia-video {
+	width: 720px !important;
+}
+.permalink:not(.self-thread-permalink) .permalink-tweet .AdaptiveMedia-doublePhoto {
+	height: 360px !important;
+}
+.permalink:not(.self-thread-permalink) .permalink-tweet .AdaptiveMedia-triplePhoto,
+.permalink:not(.self-thread-permalink) .permalink-tweet .AdaptiveMedia-quadPhoto,
+.permalink:not(.self-thread-permalink) .permalink-tweet .AdaptiveMedia-video {
+	height: 480px !important;
+}
+
+/* Content 680px */
+#timeline {
+	width: 680px !important;
+}
+.ProfileAvargar {
+	width: 140px !important;
+	height: 150px !important;
+}
+.AdaptiveMedia {
+	border-radius: 0 !important;
+	max-width: 596px !important;
+}
+.AdaptiveMedia-doublePhoto,
+.AdaptiveMedia-triplePhoto,
+.AdaptiveMedia-quadPhoto,
+.AdaptiveMedia-video {
+	width: 596px !important;
+}
+.PlayableMedia-container,
+.QuoteTweet,
+.TwitterCard-container {
+	border-radius: 0 !important;
+}
