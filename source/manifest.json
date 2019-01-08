@@ -39,7 +39,8 @@
 				"jquery.slim.min.js",
 				"browser-polyfill.min.js",
 				"content.js"
-			]
+			],
+			"all_frames": true
 		}
 	]
 }
