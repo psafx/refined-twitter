@@ -24,13 +24,6 @@ export const features = {
 	},
 
 	/* HEADER */
-	addLikesButtonNavBar: {
-		id: 'feature-likes-button-navbar',
-		category: 'header',
-		label: 'Add "Likes" tab',
-		fn: require('./likes-button-navbar').default,
-		runOnInit: true
-	},
 	cleanNavbarDropdown: {
 		id: 'feature-clean-navbar-dropdown',
 		category: 'header',
