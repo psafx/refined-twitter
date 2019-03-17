@@ -280,6 +280,7 @@ code.refined-twitter_markdown {
 }
 
 /* Remove search filter and center the tweet stream */
+.SidebarCommonModules,
 .SidebarFilterModule,
 .AdaptiveRelatedSearches {
 	display: none !important;
