@@ -285,20 +285,15 @@ code.refined-twitter_markdown {
 .AdaptiveRelatedSearches {
 	display: none !important;
 }
-.Grid-cell.u-size1of3 {
-	width: 11% !important;
+.Grid-cell.u-size1of3,
+.Grid-cell.u-lg-size1of4 {
+	width: 7.5% !important;
 }
 .AppContent-main.content-main.u-cf .Grid-cell.u-size1of3 {
 	width: 20.666666% !important;
 }
 .Grid-cell.u-lg-size2of3, .Grid-cell.u-lg-size4of6, .Grid-cell.u-lg-size8of12 {
 	width: 690px !important;
-}
-
-@media screen and (min-width: 1236px) {
-	.Grid-cell.u-lg-size1of4 {
-		width: 20.666666% !important;
-	}
 }
 
 /* Permalink 800px */
