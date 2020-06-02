@@ -20,6 +20,7 @@ optionsSync.getAll().then(options => {
 	optionsSync.setAll(newOptions);
 });
 
+/*
 // Fix the extension when right-click saving a tweet image
 browser.downloads.onDeterminingFilename.addListener((item, suggest) => {
 	suggest({
@@ -43,3 +44,4 @@ browser.runtime.onMessage.addListener(request => {
 		return fetch(url).then(response => response.text());
 	}
 });
+*/

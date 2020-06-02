@@ -3,6 +3,7 @@ import sortBy from 'lodash.sortby';
 
 export const features = {
 	/* GENERAL */
+  /*
 	keyboardShortcuts: {
 		id: 'feature-keyboard-shortcuts',
 		category: 'general',
@@ -22,8 +23,10 @@ export const features = {
 		label: 'Use the system font',
 		runOnInit: true
 	},
+  */
 
 	/* HEADER */
+  /*
 	addLikesButtonNavBar: {
 		id: 'feature-likes-button-navbar',
 		category: 'header',
@@ -58,8 +61,10 @@ export const features = {
 		runOnInit: true,
 		hidden: true
 	},
+  */
 
 	/* HOME */
+  /*
 	hideHomeFooterCard: {
 		id: 'feature-home-hide-footer-card',
 		category: 'home',
@@ -92,8 +97,10 @@ export const features = {
 		runOnInit: true,
 		fn: require('./hide-trends-and-who-to-follow').default
 	},
+  */
 
 	/* NOTIFICATIONS */
+  /*
 	hideNotificationsFollowActivity: {
 		id: 'feature-notifications-hide-follow-activity',
 		category: 'notifications',
@@ -118,8 +125,10 @@ export const features = {
 		label: 'Hide "In case you missed" activity',
 		fn: require('./hide-in-case-you-missed-notifications').default
 	},
+  */
 
 	/* PROFILE */
+  /*
 	hideProfileHeader: {
 		id: 'feature-remove-profile-header',
 		category: 'profile',
@@ -134,6 +143,7 @@ export const features = {
 	},
 
 	/* TIMELINE */
+  /*
 	autoLoadNewTweets: {
 		id: 'feature-auto-load-new-tweets',
 		category: 'timeline',
@@ -203,6 +213,7 @@ export const features = {
 		label: 'Adds Markdown-like styling of text wrapped in backticks',
 		fn: require('./inline-code').default
 	}
+  */
 };
 
 export const featuresArr = sortBy(Object.values(features), ['category', 'label']);

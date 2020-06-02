@@ -22,9 +22,10 @@ async function init() {
 	}
 
 	await domLoaded;
-	onDomReady();
+	//onDomReady();
 }
 
+/*
 function onRouteChange(cb) {
 	observeEl('#doc', cb, {attributes: true});
 }
@@ -98,5 +99,6 @@ function onDomReady() {
 		enableFeature(features.imageAlternatives);
 	});
 }
+*/
 
 init();

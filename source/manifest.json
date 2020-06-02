@@ -1,6 +1,6 @@
 {
 	"name": "Refined Twitter",
-	"version": "0.0.0",
+	"version": "2020.6.3",
 	"description": "Simplifies the Twitter interface and adds useful features",
 	"homepage_url": "https://github.com/sindresorhus/refined-twitter",
 	"manifest_version": 2,
@@ -39,7 +39,8 @@
 				"jquery.slim.min.js",
 				"browser-polyfill.min.js",
 				"content.js"
-			]
+			],
+			"all_frames": true
 		}
 	]
 }
