@@ -8,7 +8,7 @@ module.exports = {
 	entry: {
 		content: './source/content',
 		background: './source/background',
-		options: './source/options'
+		options: ['./source/options']
 	},
 	output: {
 		path: path.join(__dirname, 'distribution'),
@@ -25,22 +25,26 @@ module.exports = {
 	},
 	plugins: [
 		new SizePlugin(),
-		new CopyWebpackPlugin([
-			{
-				from: '*',
-				context: 'source',
-				ignore: '*.js'
-			},
-			{
-				from: 'style/*',
-				context: 'source'
-			},
-			{
-				from: 'node_modules/webextension-polyfill/dist/browser-polyfill.min.js'
-			},
-			{
-				from: 'node_modules/jquery/dist/jquery.slim.min.js'
-			}
-		])
+		new CopyWebpackPlugin({
+			patterns: [
+				{
+					from: '*',
+					context: 'source',
+					globOptions: {
+						ignore: ['*.js']
+					}
+				},
+				{
+					from: 'style/*',
+					context: 'source'
+				},
+				{
+					from: 'node_modules/webextension-polyfill/dist/browser-polyfill.min.js'
+				},
+				{
+					from: 'node_modules/jquery/dist/jquery.slim.min.js'
+				}
+			]
+		})
 	]
 };
